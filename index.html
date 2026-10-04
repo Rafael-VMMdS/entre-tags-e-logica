@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Caderno de revisão de HTML e JavaScript: explicações, exemplos, dicas e quiz comentado.">
+  <title>Entre tags & lógica | Revisão de PI</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2313263c'/%3E%3Ctext x='5' y='23' font-size='20' fill='%23a9f178'%3EJS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header><a class="brand" href="#"><b>{ js }</b> Entre tags & lógica</a><span>RAFAEL / REVISÃO PI · 2026</span></header>
+<div class="layout">
+  <aside><p class="eyebrow">SEU CADERNO</p><h1>Entenda.<br>Teste.<br><em>Aprenda.</em></h1><p>HTML e JavaScript, do conceito à prática.</p><nav aria-label="Modos de estudo"><button data-view="aulas" aria-pressed="true">01 <span>Explicações</span></button><button data-view="resumo" aria-pressed="false">02 <span>Resumo rápido</span></button><button data-view="dicas" aria-pressed="false">03 <span>Dicas & pegadinhas</span></button><button data-view="quiz" aria-pressed="false">04 <span>Quiz de revisão</span></button></nav><div class="side-note"><b>Um passo de cada vez.</b><p>Leia um tema, observe o exemplo e teste o que aprendeu. O erro faz parte da revisão.</p></div></aside>
+  <main id="conteudo" tabindex="-1">
+    <section id="aulas" class="view" aria-labelledby="aulas-title"><div class="section-top"><div><p class="eyebrow">01 / EXPLICAÇÕES</p><h2 id="aulas-title">Da página ao comportamento.</h2></div><span class="pill">8 temas</span></div><p class="lead">Comece pelo que você quer entender. Cada tema tem explicação, código e uma dica para lembrar.</p><div id="topic-tabs" class="topics" aria-label="Escolher assunto"></div><article id="lesson" class="lesson"></article></section>
+    <section id="resumo" class="view" hidden aria-labelledby="resumo-title"><p class="eyebrow">02 / CONSULTA RÁPIDA</p><h2 id="resumo-title">O essencial, lado a lado.</h2><p class="lead">Uma referência para revisar antes de praticar.</p><div id="summary-grid" class="summary-grid"></div></section>
+    <section id="dicas" class="view" hidden aria-labelledby="dicas-title"><p class="eyebrow">03 / PRESTE ATENÇÃO</p><h2 id="dicas-title">Pequenos detalhes. Grandes diferenças.</h2><p class="lead">O que costuma confundir — inclusive nas alternativas do formulário.</p><div id="tips" class="tips"></div></section>
+    <section id="quiz" class="view" hidden aria-labelledby="quiz-title"><div class="section-top"><div><p class="eyebrow">04 / HORA DE PRATICAR</p><h2 id="quiz-title">Você entendeu mesmo?</h2></div><span class="pill" id="score">0 acertos</span></div><p class="lead">18 questões adaptadas da matéria, com explicação após cada resposta. Sem cronômetro.</p><div class="quiz-panel"><div class="quiz-top"><span id="question-count"></span><span id="question-topic"></span></div><progress id="progress" max="18" value="0" aria-label="Questões respondidas"></progress><div id="question-area"><h3 id="question" tabindex="-1"></h3><pre id="question-code" hidden><code></code></pre><div id="options" aria-labelledby="question"></div><div id="feedback" role="status"></div><button id="next" class="primary" hidden>Próxima questão</button></div><div id="result" hidden><h3 tabindex="-1" id="result-title"></h3><p id="result-copy"></p><div id="review-errors"></div><div class="result-actions"><button id="retry-errors" class="primary">Refazer somente os erros</button><button id="restart" class="secondary">Recomeçar todas</button></div></div></div></section>
+    <footer>Revisão pessoal · HTML + CSS + JavaScript puro · Funciona offline</footer>
+  </main>
+</div>
+<noscript><p>Ative o JavaScript para navegar pelas aulas e responder ao quiz.</p></noscript>
+</body></html>
